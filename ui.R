@@ -273,7 +273,7 @@ shinyUI(fluidPage(
       ),
     column(3,
       numericInput("pcx1", 
-                        label = "Specify the proportion for X1=1",
+                        label = "Specify the proportion for X1=Yes",
                         value = 0.6,
                         min = 0,
                         max = 1),
